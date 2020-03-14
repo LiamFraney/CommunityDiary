@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "578230682184",
+    "firebase_url": "https://communitydiary-74cdc.firebaseio.com",
+    "project_id": "communitydiary-74cdc",
+    "storage_bucket": "communitydiary-74cdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578230682184:android:cf39710885ece525548e7d",
+        "android_client_info": {
+          "package_name": "com.example.communitydiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578230682184-poscueinitsp27td9gmjbvq7hs957dgu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.communitydiary",
+            "certificate_hash": "fb1598bb150fe76e3d031c58d14ceb2b210acbe1"
+          }
+        },
+        {
+          "client_id": "578230682184-he44higvkcigqehbkn1sgcqq6gvdfgkt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4wzV9fBpkz8cefiBqH-52qawkmQTVjlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578230682184-he44higvkcigqehbkn1sgcqq6gvdfgkt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
