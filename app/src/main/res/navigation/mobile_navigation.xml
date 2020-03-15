@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.example.communitydiary.ui.dashboard.DashboardFragment"
+        android:name="com.example.communitydiary.ui.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/navigation_posts"
-        android:name="com.example.communitydiary.ui.notifications.NotificationsFragment"
+        android:name="com.example.communitydiary.ui.posts.PostsFragment"
         android:label="@string/title_post"
         tools:layout="@layout/fragment_posts" />
 </navigation>
