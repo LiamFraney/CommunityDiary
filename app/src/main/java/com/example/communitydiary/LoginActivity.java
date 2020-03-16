@@ -11,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.communitydiary.ui.profile.UserFragment;
 import com.google.android.gms.auth.api.Auth;
 import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
@@ -76,7 +77,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
 
         if(firebaseAuth.getCurrentUser()!=null){
-            startActivity(new Intent(getApplicationContext(), UserActivity.class));
+            startActivity(new Intent(getApplicationContext(), UserFragment.class));
         }
 
     }
@@ -137,7 +138,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
-                    startActivity(new Intent(getApplicationContext(), UserActivity.class));
+                    startActivity(new Intent(getApplicationContext(), UserFragment.class));
                     finish();
                 }
                 else{
