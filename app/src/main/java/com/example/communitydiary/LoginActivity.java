@@ -77,7 +77,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
 
 
         if(firebaseAuth.getCurrentUser()!=null){
-            startActivity(new Intent(getApplicationContext(), UserFragment.class));
+            startActivity(new Intent(getApplicationContext(), MainActivity.class));
         }
 
     }
@@ -138,7 +138,7 @@ public class LoginActivity extends AppCompatActivity implements GoogleApiClient.
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if(task.isSuccessful()){
-                    startActivity(new Intent(getApplicationContext(), UserFragment.class));
+                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
                     finish();
                 }
                 else{
